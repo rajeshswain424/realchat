@@ -1,0 +1,12 @@
+# Secrets
+.env
+.env.*
+
+# Build output
+/bin/
+*.exe
+*.test
+*.out
+
+# Editor
+.vscode/
