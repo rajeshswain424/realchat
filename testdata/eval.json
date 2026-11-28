@@ -1,0 +1,59 @@
+[
+  {
+    "question": "What is the API rate limit?",
+    "expect_contains": ["100", "minute"]
+  },
+  {
+    "question": "Which database was chosen for the billing service?",
+    "expect_contains": ["postgresql"]
+  },
+  {
+    "question": "Why was MongoDB rejected for billing?",
+    "expect_contains": ["transaction"]
+  },
+  {
+    "question": "How long do OAuth access tokens last before they expire?",
+    "expect_contains": ["15 minutes"]
+  },
+  {
+    "question": "Who owns the auth migration?",
+    "expect_contains": ["priya"]
+  },
+  {
+    "question": "By what date will the auth migration be finished? Answer with the date in YYYY-MM-DD format.",
+    "expect_contains": ["2026-11-28"]
+  },
+  {
+    "question": "What is Marco blocked on?",
+    "expect_contains": ["password"]
+  },
+  {
+    "question": "How often does the garden sensor read soil moisture?",
+    "expect_contains": ["15 minutes"]
+  },
+  {
+    "question": "At what moisture percentage does watering start?",
+    "expect_contains": ["30"]
+  },
+  {
+    "question": "Which MQTT topic does the garden sensor publish to?",
+    "expect_contains": ["garden/bed1/moisture"]
+  },
+  {
+    "question": "Why is the watering valve not connected yet?",
+    "expect_contains": ["12v"]
+  },
+  {
+    "question": "Which page did I stop at in Designing Data-Intensive Applications?",
+    "expect_contains": ["212"]
+  },
+  {
+    "question": "How long does the lentil soup take to cook?",
+    "expect_contains": ["40 minutes"]
+  },
+  {
+    "question": "List the names of all markdown files in the notes folder.",
+    "expect_contains": ["lentil-soup.md", "decisions.md", "reading-list.md"],
+    "expect_tool": "list_files"
+  }
+]
